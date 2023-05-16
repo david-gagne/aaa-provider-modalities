@@ -1,0 +1,88 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="About - Massage Envy East Provider Modalities">
+  <main class="ph3 tc">
+    <section>
+      <h1 class="lh-title f2 f1-ns pv4">About</h1>
+      <p class="lh-copy mw6 center">
+        This website lists provider modalities for massage therapists and
+        estheticians at Massage Envy East Hollywood. Refer to the <a href="/"
+          >list of provider modalities</a
+        > when you need to check if a particular massage therapist or esthetician
+        provides a service or add-on.
+      </p>
+      <a
+        href="/"
+        class="home-link link db flex items-center justify-center f4 center mt4"
+        >Go back to homepage</a
+      >
+    </section>
+
+    <section class="mv6 mw6 center">
+      <h2 class="lh-title">Management Information</h2>
+      <div class="info grid mt4 center">
+        <div class="flex flex-column">
+          <h3 class="tl">Owners</h3>
+          <p class="tl mv2">
+            Tony Butera <span class="pl3">813-495-8091</span>
+          </p>
+          <p class="tl mv2">
+            Abdel Butera <span class="pl3">813-728-8956</span>
+          </p>
+        </div>
+
+        <div class="flex flex-column items-end-l mt4 mt0-ns">
+          <h3 class="tl">Front Desk Associates</h3>
+          <p class="tl mv2">
+            Jodi <span class="pl3">954-673-9475</span>
+          </p>
+          <p class="tl mv2">
+            Marcy <span class="pl3">386-344-4990</span>
+          </p>
+          <p class="tl mv2">
+            Marly <span class="pl3">786-707-7808</span>
+          </p>
+          <p class="tl mv2">
+            Belineda <span class="pl3">954-248-9973</span>
+          </p>
+          <p class="tl mv2">
+            Kimberly <span class="pl3">754-308-0506</span>
+          </p>
+          <p class="tl mv2">
+            Serena <span class="pl3">209-740-0292</span>
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+</Layout>
+
+<style>
+  a {
+    color: var(--theme-primary-color);
+  }
+
+  .home-link {
+    color: white;
+    font-family: "Panton Narrow Bold", sans-serif;
+    background-color: var(--theme-primary-color);
+    width: fit-content;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 260px;
+    height: 50px;
+    border-radius: 10px;
+  }
+
+  .grid {
+    display: grid;
+  }
+
+  @media screen and (min-width: 470px) {
+    .info {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+</style>
