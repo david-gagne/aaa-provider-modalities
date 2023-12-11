@@ -10,7 +10,7 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^3.6.1",
+    "astro": "^3.6.4",
     "semver": "^7.5.4"
   }
 }
